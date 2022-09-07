@@ -1,0 +1,155 @@
+body {
+    background-image: url('/assets/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+    margin-right: calc(-.0 * var(--bs-gutter-x));
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    font-size: 35px;
+
+}
+
+header h2 {
+    text-align: center;
+    padding-top: 4vw;
+}
+
+hr {
+    max-width: 10vw;
+    margin-left: 11vw;
+}
+
+header img {
+    max-width: 15vw;
+    justify-content: center;
+}
+
+nav {
+    background-color: transparent;
+}
+
+#menuNews, #menuProducts, #menuMedia, #menuTour {
+    color: rgb(255, 255, 255);
+}
+
+.albumPic {
+    max-width: 30vw;
+}
+
+.newsShow {
+    max-width: 20vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.goods {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.goods img {
+    max-width: 100%;
+}
+
+.goods a {
+    color: white;
+}
+
+.card {
+    background-color: transparent;
+    max-width: fit-content;
+}
+
+.card:hover {
+    box-shadow: inset 0 0 20em rgb(0, 0, 0);
+}
+
+.media {
+    box-shadow: inset 0 0 20em rgb(0, 0, 0);
+}
+
+input#email {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid #d2d2d2;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    outline: 0;
+}
+
+input.submit {
+    color: #000 !important;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    padding: 0.2vw;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 60%;
+    font-family: "franklin-gothic-urw-comp";
+    font-weight: bold;
+}
+
+.emailTitle {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "franklin-gothic-urw-comp";
+    color: #fff;
+}
+
+.mlist-header {
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: "franklin-gothic-urw-comp";
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe {
+    max-width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.termsContent {
+    font-size: x-small;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1em;
+}

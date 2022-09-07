@@ -1,0 +1,122 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(250, 247, 231);
+}
+
+h1{
+    background-color: burlywood;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    color: rgb(131, 77, 51);
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color:rgb(160, 109, 86);
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+h3{
+    color:burlywood;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-bottom: 0;
+    color: sienna;
+}
+
+hr{
+    border-color:sienna; 
+    margin-top: 0px;   
+}
+
+p{
+    margin-top: 0;
+    color: rgb(117, 69, 46);
+}
+
+.tudo{
+    width: 60%;
+    border: solid 1px rgb(166, 96, 64);
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+}
+
+#formacao{
+    margin: 2%;
+    text-align: left;
+}
+
+#coluna1{
+    float:left;
+    width: 45%;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+#coluna2{
+    float:left;
+    width: 1px;
+    height: 650px;
+    background-color: sienna;
+   
+}
+
+#coluna3{
+    float:left;
+    width: 45%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;    
+}
+
+.linha{
+    clear: both;
+}
+
+.fonteDados{
+    color: rgb(166, 96, 64);
+    font-weight: bold;
+}
+
+.circulo{
+    height: 10px;
+    width: 10px;
+    background-color: burlywood;
+    border-radius: 50%;
+    float: right;
+    margin-left: 10px;
+}
+
+#foto{
+    width:30%;
+    float: left;
+    text-align: center;
+}
+
+#img{
+    max-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#dados{
+    width: 68%;
+    float:left;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#objetivos{
+    margin: 2%;
+    text-align: justify;
+}

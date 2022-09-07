@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: black;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 15vh;
+    font-size: large;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 25%;
+    min-height: 50vh;
+    padding-left: 1vw;
+    padding-top: 2vh;
+}
+
+aside a {
+    text-decoration: none;
+
+}
+
+article {
+    display: flex;
+    width: 72%;
+    min-height: 50vh;
+    flex-direction: column;
+    padding-left: 1vw;
+    text-align: justify;
+}
+
+footer {
+    background-color: gray;
+    min-width: 100%;
+    color: black;
+    text-align: center;
+}

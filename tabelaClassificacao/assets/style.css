@@ -1,0 +1,197 @@
+/*pseudo-elements*/
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #e2e2e2;
+    font-family: arial, sans-serif;
+    Overflow-x: hidden;
+}
+
+a, a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+th {
+    color: darkgray;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+td {
+    font-size: 14px;
+    text-align: center;
+}
+
+table, th, td {
+    border-bottom: 1px solid #e2e2e2;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+/*main styling*/
+.line {
+    clear: both;
+    width: 80%;
+}
+
+.h2TitleSection {
+    font-size: 20px;
+    padding: 10px 3px;
+}
+
+.h3TitleGroup {
+    font-size: 14px;
+}
+
+.imgClub {
+    width: 20px;
+    height: 20px;
+}
+
+/*Header style*/
+#header {
+    background-color: #162e58;
+    min-height: 100px;
+    padding: 30px 50px 10px 50px;
+    position: relative;
+}
+
+#headerTitle {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: left;
+    float: left;
+    min-width: 50%;
+}
+
+#menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 21%;
+    text-align: center;
+}
+
+.itemMenu {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    width: 12.5%;
+    height: 40px;
+    padding-top: 7px;
+
+}
+
+.itemMenu:hover {
+    background-color: #1d3a6c;
+    padding-top: 5px;
+    max-height: 30px;
+}
+
+/*Ranking, Goalers and Games Style*/
+#ranking {
+    width: 100%;
+}
+
+#goalers {
+    width: 100%;
+}
+
+#games {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.position {
+    width: 3%;
+    font-size: 14px;
+}
+
+.spanClubName {
+    color: darkgrey;
+    font-size: 12px;
+}
+
+.emp {
+    background-image: url("img/e.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.der {
+    background-image: url("img/d.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.vit {
+    background-image: url("img/v.svg");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    float: right;
+    margin-right: 5px;
+}
+
+.tableRanking, #tableGoalers {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tableGames {
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.tdClubName, .clubName {
+    text-align: center;
+}
+
+.tdImgClub {
+    width: 5%;
+}
+
+.thLast {
+    width: 15%;
+    text-align: right;
+}
+
+.tdPlayer {
+    text-align: left;
+    width: 90%;
+}
+
+.thPlayer {
+    text-align: left;
+}
+
+.tdHour {
+    font-size: 12px;
+    text-align: center;
+}
+
+#tableGoalers td {
+    padding: 20px 10px 10px 10px;
+}
+
+#tableGames .tdTableGames {
+    padding: 10px;
+}
+
+#tableGames th, #tableGames td {
+    border-bottom: 0px;
+}
