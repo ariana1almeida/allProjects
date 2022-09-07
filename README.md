@@ -9,7 +9,10 @@ Aqui você irá encontrar minhas experiências e práticas que adquiri desde 202
 - Projeto UNES *(orientado pelo curso Udemy)* :deciduous_tree:
 - Projeto Anna-Bella *(orientado pelo curso Udemy)*:deciduous_tree:
 - meow.me *(projeto pessoal)* :deciduous_tree:
-
+- Currículo *(projeto Ulbra)* :deciduous_tree:
+- PHP e Docker para criar uma página web *(projeto Ulbra)* :deciduous_tree:
+- Site MCR *(projeto Ulbra)* :deciduous_tree:
+- Tabela de Classificação de Futebol *(projeto Ulbra)* :deciduous_tree:
 
 
 :telephone_receiver:Contato:
